@@ -1,0 +1,164 @@
+body 
+{
+    background: #4dff88;
+
+    margin: 0;
+}
+#root{
+    height: 100vh;
+    }
+.container
+{   
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+.Rack
+{
+    overflow: auto;
+    height: 35vh;
+    width: 30vw;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+
+.add-book h2
+{
+text-align: center;
+}
+.add-book
+{
+    width: 20vw;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+.add-book form
+{
+    width: 18vw;
+    margin: auto;
+}
+.Usecart
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+input
+{
+    width: 60%;
+    margin: 1vh 0 ;
+}
+
+.book-display fieldset
+{
+    display: inline-block;
+    position: relative;
+
+}
+.book-display fieldset span
+{
+    position: absolute;
+    top: 0;
+    left: 85%;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+h1
+{
+    text-align: center;
+}
+.sectionwise
+{
+    width: 45vw;
+    display: inline-block;
+
+}
+.deletebutton
+{
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    color:red !important;
+}
+.completebutton
+{
+    position: absolute;
+    color: green !important;
+    top: 20%;
+    left: 85%
+}
+.sectionwise fieldset
+{
+width: 40vw;
+    overflow: auto;
+    height: 45vh;
+    box-shadow: 10px 10px 10px black;;
+}
+display
+{
+    overflow: auto;
+}
+legend
+{
+
+    font-size: 5vh;
+    font-weight: bolder;
+}
+.Usecart
+{
+    height: 40vh;
+}
+.sectionwise:nth-child(odd)
+{
+    float: right;
+}
+.sectionwise fieldset fieldset
+{
+    width: 35vw;
+    height: 30vh;
+}
+.Loginpage
+{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+.box
+{
+    box-shadow: 0 0 10px black;
+    width: 30vw;
+    height: 20vw;
+    margin: auto;
+    border: 1px solid black;
+}
+.credentials,.btns
+{
+    width: 10vw;
+    margin: 5vh auto;
+    text-align: center;
+
+}
+.btns
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.credentials
+{
+
+    width: 20vw;
+}
+button
+{
+    width: 4vw;
+    height: 4vh;
+    border-radius: 1vh;
+    border: none;
+}
